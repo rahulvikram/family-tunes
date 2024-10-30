@@ -1,25 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import WelcomeItem from './components/WelcomeItem.vue';
+import Footer from './components/Footer.vue';
+import Login from './components/Login.vue';
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" /> <!-- now we can use helloworld.vue component as a tag because we imported it at the top in script tag -->
-      <!-- in HelloWorld.vue script tag, we define msg as a variable and we specify its content -->
-    </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <Login />
   </main>
 
   <footer>
-    <WelcomeItem/>
+    <Footer />
   </footer>
 </template>
 
